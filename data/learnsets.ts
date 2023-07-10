@@ -33,6 +33,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bulbasaur: {
 		learnset: {
+			flamethrower: ["8M", "7E", "6E", "5E", "4E"],
 			amnesia: ["8M", "7E", "6E", "5E", "4E"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],

@@ -3,7 +3,7 @@ export const Formats: FormatList = [
 		section: "Cyberville",
 	},
 	{
-		name: "[Gen 9] OU",
+		name: "Cyberville Changetest",
 
 		mod: 'cyberville balance',
 		ruleset: ['Standard'],

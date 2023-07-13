@@ -88291,6 +88291,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psyshock: ["9M", "9L0"],
 			reflect: ["9M"],
 			rest: ["9M"],
+		searingshot: ["9M"],
 			shadowball: ["9M"],
 			sleeptalk: ["9M"],
 			solarbeam: ["9M"],

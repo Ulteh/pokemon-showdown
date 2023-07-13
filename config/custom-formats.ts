@@ -5,7 +5,7 @@ export const Formats: FormatList = [
 	{
 		name: "Cyberville Changetest",
 
-		mod: 'cyberville balance',
+		mod: 'cybervillebalance',
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},

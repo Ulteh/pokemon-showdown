@@ -8,11 +8,11 @@ export const Formats: FormatList = [
 		column: 1,
 	},
 	{
-		name: "[Gen 9] Cyberville Testbranch",
+		name: "[Gen 9] cyb",
 		desc: `Testbranch.`,
 		searchShow: true,
 
-		mod: 'cybervillebalance',
+		mod: 'cyb',
 		ruleset: ['Standard'],
 		banlist: ['Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},

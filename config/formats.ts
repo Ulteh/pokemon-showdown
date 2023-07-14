@@ -12,7 +12,7 @@ export const Formats: FormatList = [
 		desc: `Testbranch.`,
 		searchShow: true,
 
-		mod: 'cyb',
+		mod: 'gen9cyb',
 		ruleset: ['Standard'],
 		banlist: ['Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},

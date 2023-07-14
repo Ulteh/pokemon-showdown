@@ -9,6 +9,8 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 9] Cyberville Testbranch",
+		desc: `Testbranch.`,
+		searchShow: true,
 
 		mod: 'cybervillebalance',
 		ruleset: ['Standard'],

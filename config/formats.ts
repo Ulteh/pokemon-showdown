@@ -38,7 +38,7 @@ export const Formats: FormatList = [
 		name: "[Gen 9] Custom Game",
 
 		mod: 'gen9',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
@@ -48,7 +48,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8] Custom Game",
 
 		mod: 'gen8',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
@@ -58,7 +58,7 @@ export const Formats: FormatList = [
 		name: "[Gen 7] Custom Game",
 
 		mod: 'gen7',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
@@ -68,7 +68,7 @@ export const Formats: FormatList = [
 		name: "[Gen 6] Custom Game",
 
 		mod: 'gen6',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
@@ -78,7 +78,7 @@ export const Formats: FormatList = [
 		name: "[Gen 5] Custom Game",
 
 		mod: 'gen5',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
@@ -88,7 +88,7 @@ export const Formats: FormatList = [
 		name: "[Gen 4] Custom Game",
 
 		mod: 'gen4',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions
@@ -98,7 +98,7 @@ export const Formats: FormatList = [
 		name: "[Gen 3] Custom Game",
 
 		mod: 'gen3',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
@@ -107,7 +107,7 @@ export const Formats: FormatList = [
 		name: "[Gen 2] Custom Game",
 
 		mod: 'gen2',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
@@ -116,7 +116,7 @@ export const Formats: FormatList = [
 		name: "[Gen 1] Custom Game",
 
 		mod: 'gen1',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
@@ -126,7 +126,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen9',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		battle: {trunc: Math.trunc},
 		debug: true,
 		// no restrictions, for serious (other than team preview)
@@ -137,7 +137,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		battle: {trunc: Math.trunc},
 		debug: true,
 		// no restrictions, for serious (other than team preview)
@@ -148,7 +148,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		battle: {trunc: Math.trunc},
 		debug: true,
 		// no restrictions, for serious (other than team preview)
@@ -159,7 +159,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen6',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		battle: {trunc: Math.trunc},
 		debug: true,
 		// no restrictions, for serious (other than team preview)
@@ -170,7 +170,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen5',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions, for serious (other than team preview)
@@ -181,7 +181,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen4',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		battle: {trunc: Math.trunc},
 		// no restrictions
@@ -192,7 +192,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen3',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		debug: true,
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
@@ -322,7 +322,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen5',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Swagger Clause', 'Sleep Clause Mod'],
 		banlist: ['DUber', 'Soul Dew', 'Dark Void', 'Gravity'],
 	},
@@ -354,7 +354,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 8] OU'],
 		banlist: ['OU', 'UUBL', 'Light Clay'],
 	},
@@ -366,7 +366,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 7] OU'],
 		banlist: ['OU', 'UUBL', 'Drizzle', 'Drought', 'Kommonium Z', 'Mewnium Z'],
 	},
@@ -378,7 +378,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen6',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 6] OU'],
 		banlist: ['OU', 'UUBL', 'Drizzle', 'Drought'],
 	},
@@ -390,7 +390,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen5',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Swagger Clause', 'Sleep Clause Mod'],
 		banlist: ['Uber', 'OU', 'UUBL', 'Arena Trap', 'Drought', 'Sand Stream', 'Snow Warning', 'Prankster + Assist', 'Prankster + Copycat', 'Baton Pass'],
 	},
@@ -413,7 +413,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 8] Doubles OU'],
 		banlist: ['DOU', 'DBL'],
 	},
@@ -423,7 +423,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 7] Doubles OU'],
 		banlist: ['DOU', 'DBL'],
 	},
@@ -454,7 +454,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['AG', 'Shadow Tag', 'Baton Pass'],
 	},
@@ -465,7 +465,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Mega Rayquaza Clause'],
 		banlist: ['Baton Pass'],
 	},
@@ -476,7 +476,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen6',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Swagger Clause', 'Mega Rayquaza Clause'],
 	},
 	{
@@ -486,7 +486,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen5',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Sleep Clause Mod'],
 	},
 	{
@@ -507,7 +507,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		gameType: 'doubles',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard Doubles', '!Gravity Sleep Clause'],
 		banlist: [],
 	},
@@ -530,7 +530,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 	{
@@ -542,7 +542,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 	{
@@ -553,7 +553,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen6',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Obtainable', 'Team Preview', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 
@@ -583,7 +583,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 8] UU'],
 		banlist: ['UU', 'RUBL'],
 	},
@@ -595,7 +595,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 7] UU'],
 		banlist: ['UU', 'RUBL', 'Mimikyu', 'Aurora Veil'],
 		unbanlist: ['Drought'],
@@ -608,7 +608,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen6',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 6] UU'],
 		banlist: ['UU', 'RUBL'],
 	},
@@ -620,7 +620,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen5',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['[Gen 5] UU', 'Baton Pass Clause', '!Sleep Clause Mod', 'Sleep Moves Clause'],
 		banlist: ['UU', 'RUBL', 'Shadow Tag', 'Shell Smash + Baton Pass'],
 		unbanlist: ['Prankster + Assist', 'Prankster + Copycat', 'Baton Pass'],
@@ -657,7 +657,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen8',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Little Cup', 'Standard', 'Dynamax Clause'],
 		banlist: [
 			'Corsola-Galar', 'Cutiefly', 'Drifloon', 'Gastly', 'Gothita', 'Magby', 'Rufflet', 'Scraggy', 'Scyther', 'Sneasel', 'Swirlix',
@@ -673,7 +673,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Little Cup', 'Standard', 'Swagger Clause'],
 		banlist: [
 			'Aipom', 'Cutiefly', 'Drifloon', 'Gligar', 'Gothita', 'Meditite', 'Misdreavus', 'Murkrow', 'Porygon',
@@ -689,7 +689,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen6',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Little Cup'],
 		banlist: [
 			'Drifloon', 'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Yanma',
@@ -704,7 +704,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen5',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
 		banlist: [
 			'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Scraggy', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma',
@@ -719,7 +719,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen4',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
 		banlist: [
 			'Meditite', 'Misdreavus', 'Murkrow', 'Scyther', 'Sneasel', 'Tangela', 'Yanma',
@@ -733,7 +733,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen3',
-		searchShow: false,
+		searchShow: true,
 		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
 		banlist: ['Chansey', 'Meditite', 'Omanyte', 'Scyther', 'Wynaut', 'Zigzagoon', 'Agility + Baton Pass', 'Dragon Rage', 'Sonic Boom'],
 	},

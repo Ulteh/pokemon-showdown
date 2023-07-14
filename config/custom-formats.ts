@@ -4,7 +4,7 @@ export const Formats: FormatList = [
 		column: 1,
 	},
 	{
-		name: "Cyberville Testbranch",
+		name: "[Gen 9] Cyberville Testbranch",
 
 		mod: 'cybervillebalance',
 		ruleset: ['Standard'],

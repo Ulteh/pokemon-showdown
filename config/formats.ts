@@ -750,6 +750,7 @@ export const Formats: FormatList = [
 		ruleset: ['Standard Doubles', 'Little Cup', 'Sleep Clause Mod'],
 		banlist: ['Dunsparce', 'Murkrow', 'Qwilfish-Hisui', 'Scyther', 'Sneasel', 'Sneasel-Hisui'],
 	},
+
 	//DRAFT LEAGUE
 	///////////////////////////////////////////////////////
 	{
@@ -762,13 +763,6 @@ export const Formats: FormatList = [
 		mod: 'gen9',
 		searchShow: false,
 		ruleset: ['Draft', 'Min Source Gen = 9'],
-	},
-	{
-		name: "[Gen 9] Tera Preview Paldea Dex Draft",
-
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['[Gen 9] Paldea Dex Draft', 'Tera Type Preview'],
 	},
 	{
 		name: "[Gen 9] Doubles Draft",
@@ -786,19 +780,12 @@ export const Formats: FormatList = [
 		ruleset: ['Draft', '+Unobtainable', '+Past'],
 	},
 	{
-		name: "[Gen 9] Tera Preview NatDex Draft",
-
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['[Gen 9] NatDex Draft', 'Tera Type Preview'],
-	},
-	{
 		name: "[Gen 9] NatDex Doubles Draft",
 
 		mod: 'gen9',
 		gameType: 'doubles',
 		searchShow: false,
-		ruleset: ['[Gen 9] 6v6 Doubles Draft', '+Unobtainable', '+Past', '!! Min Source Gen = 3'],
+		ruleset: ['[Gen 9] Doubles Draft', '+Unobtainable', '+Past', '!! Min Source Gen = 3'],
 	},
 	{
 		name: "[Gen 9] NatDex LC Draft",

@@ -15,6 +15,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen9',
+		searchShow: true,
 		team: 'random',
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
@@ -22,6 +23,7 @@ export const Formats: FormatList = [
 		name: "[Gen 9] Random Doubles",
 
 		mod: 'gen9',
+		searchShow: true,
 		gameType: 'doubles',
 		team: 'random',
 		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod'],

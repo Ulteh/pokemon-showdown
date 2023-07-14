@@ -6,7 +6,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Cyberville Testbranch Custom",
 
-		mod: 'cybervillebalance',
+		mod: 'cyberbalance',
 		ruleset: ['Standard'],
 		banlist: ['Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 	},

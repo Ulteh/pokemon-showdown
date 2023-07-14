@@ -141,6 +141,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 88, atk: 112, def: 80, spa: 95, spd: 95, spe: 65},
 		abilities: {0: "Overgrow", 1: "Unburden", H: "Scrappy"},
+		
 	},
 	incineroar: {
 		inherit: true,

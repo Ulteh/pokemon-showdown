@@ -8,6 +8,6 @@ export const Formats: FormatList = [
 
 		mod: 'gen9cyb',
 		ruleset: ['Standard NatDex', 'Draft'],
-		banlist: ['Arena Trap', 'Moody', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+		banlist: ['Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Shed Tail'],
 	},
 ];

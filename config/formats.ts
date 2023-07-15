@@ -3,19 +3,17 @@
 export const Formats: FormatList = [
 	//CYBERVILLE=============================
 	//////////////////////////////////////////////////////////////////////////////////
-	/*{
+	{
 		section: "CYBERVILLE",
 		column: 1,
 	},
 	{
-		name: "[Gen 9] cyb",
-		desc: `Testbranch.`,
-		searchShow: true,
+		name: "[Gen 9] Cyberville",
 
 		mod: 'gen9cyb',
-		ruleset: ['Standard'],
+		ruleset: ['Standard NatDex', 'Draft', '+Unobtainable', '+Past'],
 		banlist: ['Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass', 'Last Respects', 'Shed Tail'],
-	},*/
+	},
 	//RANDOM GAMES==========================
 	//////////////////////////////////////////////////////////////////////////////////
 	{

@@ -7,7 +7,7 @@ export const Formats: FormatList = [
 		name: "[Gen 9] Cyberville",
 
 		mod: 'gen9cyb',
-		ruleset: ['[Gen 9] NatDex Draft'],
+		ruleset: ['Standard'],
 		banlist: ['Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Shed Tail'],
 	},
 ];

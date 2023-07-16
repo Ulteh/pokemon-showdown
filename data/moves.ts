@@ -21610,7 +21610,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
-	  searingbolt: {
+	  /*searingbolt: {
         num: 901,
         accuracy: 100,
         basePower: 85,
@@ -21627,5 +21627,5 @@ export const Moves: {[moveid: string]: MoveData} = {
         type: "Fire",
         zMove: {basePower: 170},
         contestType: "Tough",
-	  },
+	  },*/
 };

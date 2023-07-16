@@ -33,7 +33,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bulbasaur: {
 		learnset: {
-			flamethrower: ["8M", "7E", "6E", "5E", "4E"],
 			amnesia: ["8M", "7E", "6E", "5E", "4E"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],
@@ -88291,7 +88290,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psyshock: ["9M", "9L0"],
 			reflect: ["9M"],
 			rest: ["9M"],
-			searingbolt: ["9M"],
 			shadowball: ["9M"],
 			sleeptalk: ["9M"],
 			solarbeam: ["9M"],

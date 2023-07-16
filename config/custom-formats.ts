@@ -4,10 +4,10 @@ export const Formats: FormatList = [
 		column: 1,
 	},
 	{
-		name: "[Gen 9] cyb",
+		name: "[Gen 9] Cyberville",
 
 		mod: 'gen9cyb',
-		ruleset: ['Draft'],
+		ruleset: ['Standard'],
 		banlist: ['Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Shed Tail'],
 	},
 ];

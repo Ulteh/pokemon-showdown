@@ -130,7 +130,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	spore: {
 		inherit: true,
-		accuracy: 80,
+		accuracy: 90,
 		pp: 15,
 	},
 	vitalthrow: {

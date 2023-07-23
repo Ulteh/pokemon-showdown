@@ -21627,5 +21627,23 @@ export const Moves: {[moveid: string]: MoveData} = {
         type: "Fire",
         zMove: {basePower: 170},
         contestType: "Tough",
-	  },*/
+	},*/
+		glacialcrush: {
+		num: 902,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Glacial Crush",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [33, 100],
+		secondary: {
+		chance: 10,
+		status: 'frz',
+		},
+		target: "normal",
+		type: "Ice",
+		contestType: "Cool",
+	},	
 };

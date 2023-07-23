@@ -5842,11 +5842,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 		natDexTier: "RUBL",
 	},
-	uzerion: {
-		isNonstandard: "Custom",
-		tier: "Uber",
-		natDexTier: "Uber",
-	}, 
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

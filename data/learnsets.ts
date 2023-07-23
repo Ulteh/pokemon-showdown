@@ -94311,7 +94311,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 47, moves: ["darkpulse", "flamethrower", "hyperbeam", "icebeam"]},
 		],
 	},
-	 uzerion: {
+	 /* uzerion: {
 		learnset: {
 			ancientpower: ["9L1"],
 			avalanche: ["9M"],
@@ -94396,5 +94396,5 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			willowisp: ["9M"],
 			zenheadbutt: ["9M"],	
 		},
-	}, 
+	},  */
 };

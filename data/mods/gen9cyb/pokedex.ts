@@ -183,4 +183,17 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		baseStats: {hp: 85, atk: 120, def: 80, spa: 85, spd: 75, spe: 90},
 		abilities: {0: "Torrent", 1: "Dancer", H: "Moxie"},
 	},
+	uzerion: {
+		num: 1011,
+		name: "Uzerion",
+		types: ["Fire", "Ice"],
+		gender: "N",
+		baseStats: {hp: 100, atk: 120, def: 120, spa: 150, spd: 100, spe: 80},
+		abilities: {0: "Dragon's Maw"},
+		heightm: 4.7,
+		weightkg: 999.9,
+		color: "Gray",
+		tags: ["Burning Zero"],
+		eggGroups: ["Undiscovered"],
+	},
 };

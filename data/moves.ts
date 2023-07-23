@@ -21628,7 +21628,7 @@ export const Moves: {[moveid: string]: MoveData} = {
         zMove: {basePower: 170},
         contestType: "Tough",
 	},*/
-		glacialcrush: {
+		/* glacialcrush: {
 		num: 902,
 		accuracy: 100,
 		basePower: 120,
@@ -21645,5 +21645,5 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ice",
 		contestType: "Cool",
-	},	
+	},	 */
 };

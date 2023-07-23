@@ -18048,8 +18048,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 999.9,
 		color: "Gray",
 		tags: ["Burning Zero"],
-		eggGroups: ["Undiscovered"], */
-	},
+		eggGroups: ["Undiscovered"], 
+	},*/
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

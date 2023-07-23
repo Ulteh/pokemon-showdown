@@ -18037,7 +18037,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		tags: ["Paradox"],
 		eggGroups: ["Undiscovered"],
 	},
-	 uzerion: {
+	/*  uzerion: {
 		num: 1011,
 		name: "Uzerion",
 		types: ["Fire", "Ice"],
@@ -18049,7 +18049,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		tags: ["Burning Zero"],
 		eggGroups: ["Undiscovered"], 
-	},
+	}, */
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

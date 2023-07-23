@@ -5843,6 +5843,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RUBL",
 	},
 	uzerion: {
+		isNonstandard: "Custom",
 		tier: "Uber",
 		natDexTier: "Uber",
 	}, 

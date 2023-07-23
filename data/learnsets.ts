@@ -94393,6 +94393,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swift: ["9M"],
 			terablast: ["9M"],
 			toxic: ["9M"],
+			willowisp: ["9M"],
 			zenheadbutt: ["9M"],	
 		},
 	}, 

@@ -7443,4 +7443,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	glacialcrush: {
+		name: "Glacial Crush",
+		desc: "Has a 10% chance to freeze the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil. 10% chance to freeze.",
+	},
+	
 };
+

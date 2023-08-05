@@ -94457,6 +94457,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sleeptalk: ["9M"],
 			darkpulse: ["9M"],
 			dazzlinggleam: ["9M"],
+			closecombat: ["9M"],
+			nightslash: ["9M"],
 		},
 	},
 	terrodon: {
@@ -94499,6 +94501,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sleeptalk: ["9M"],
 			darkpulse: ["9M"],
 			dazzlinggleam: ["9M"],
+			closecombat: ["9M"],
+			nightslash: ["9M"],
 			
 		},
 	},

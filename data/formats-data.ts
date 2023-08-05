@@ -5848,11 +5848,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	}, 
 	screechik: {
 		tier: "LC",
-		natDexTier: "Unreleased",
+		natDexTier: "LC",
 	},
 	terrodon: {
-		tier: "Unreleased",
-		natDexTier: "Unreleased",
+		tier: "OU",
+		natDexTier: "OU",
 	},
 	missingno: {
 		isNonstandard: "Custom",

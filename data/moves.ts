@@ -21610,24 +21610,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
-	  /*searingbolt: {
+		terrorbeak: {
         num: 901,
         accuracy: 100,
-        basePower: 85,
-        category: "Special",
-        name: "Searing Bolt",
+        basePower: 70,
+        category: "Physical",
+        name: "Terror Beak",
         pp: 15,
-        flags: {protect: 1, mirror: 1},
+        flags: {protect: 1, mirror: 1, contact: 1},
         onEffectiveness(typeMod, target, type, move) {
-            return typeMod + this.dex.getEffectiveness('Electric', type);
+            return typeMod + this.dex.getEffectiveness('Fighting', type);
         },
         priority: 0,
+		critRatio: 2,
         secondary: null,
         target: "any",
-        type: "Fire",
+        type: "Dark",
         zMove: {basePower: 170},
         contestType: "Tough",
-	},*/
+	},
 		glacialcrush: {
 		num: 902,
 		accuracy: 100,

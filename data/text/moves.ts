@@ -7450,8 +7450,8 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	terrorbeak: {
 		name: "Terror Beak",
-		desc: "This move combines Fighting in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
-		shortDesc: "Combines Fighting in its type effectiveness.",
+		desc: "This move combines Fighting in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active, and a higher chance for a critical hit.",
+		shortDesc: "Combines Fighting in its type effectiveness.Higher chance for a critical hit.",
 	},
 };
 

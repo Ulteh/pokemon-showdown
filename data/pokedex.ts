@@ -18074,7 +18074,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Screechik",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Field"],
-	}
+	},
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

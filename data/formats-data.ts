@@ -1238,7 +1238,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	moltres: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	moltresgalar: {
 		tier: "UU",
@@ -1575,7 +1575,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	overqwil: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	shuckle: {
 		isNonstandard: "Past",
@@ -1720,7 +1720,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	wyrdeer: {
 		tier: "NU",
 		doublesTier: "DUU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	smeargle: {
 		isNonstandard: "Past",
@@ -3335,12 +3335,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	basculegion: {
 		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	basculegionf: {
 		tier: "UU",
 		doublesTier: "DUU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	sandile: {
 		tier: "LC",
@@ -5388,7 +5388,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	enamorustherian: {
 		tier: "UU",
 		doublesTier: "DOU",
-		natDexTier: "UU",
+		natDexTier: "RU",
 	},
 	sprigatito: {
 		tier: "LC",
@@ -5847,12 +5847,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "Uber",
 	}, 
 	screechik: {
-		tier: "LC",
-		natDexTier: "LC",
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	terrodon: {
-		tier: "OU",
-		natDexTier: "OU",
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	missingno: {
 		isNonstandard: "Custom",

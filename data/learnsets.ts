@@ -94459,6 +94459,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dazzlinggleam: ["9M"],
 			closecombat: ["9M"],
 			nightslash: ["9M"],
+			terablast: ["9M"],
 		},
 	},
 		terrodon: {
@@ -94503,6 +94504,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			playrough: ["9M"],
 			closecombat: ["9M"],
 			nightslash: ["9M"],
+			terablast: ["9M"],
+			uturn: ["9M"],	
 			
 		},
 	},

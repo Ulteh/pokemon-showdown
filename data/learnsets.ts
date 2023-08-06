@@ -94486,7 +94486,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			return: ["9M"],
 			frustration: ["9M"],
 			brickbreak: ["9M"],
-			sludgebomb: ["9M"],
+			poisonjab: ["9M"],
 			rocktomb: ["9M"],
 			aerialace: ["9M"],
 			rest: ["9M"],
@@ -94500,7 +94500,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			substitute: ["9M"],
 			sleeptalk: ["9M"],
 			darkpulse: ["9M"],
-			dazzlinggleam: ["9M"],
+			playrough: ["9M"],
 			closecombat: ["9M"],
 			nightslash: ["9M"],
 			

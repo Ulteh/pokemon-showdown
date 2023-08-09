@@ -17,4 +17,13 @@ export const Formats: FormatList = [
 		ruleset: ['Standard NatDex', 'Sleep Clause Mod', 'Evasion Clause', 'Draft'],
 		banlist: ['Arena Trap', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Shed Tail'],
 	},
+	
+	{
+		name: "[Gen 9] Cyberville NatDex FFA",
+		
+		mod: 'gen9cyb',
+		gametype: 'freeforall',
+		ruleset: ['Standard NatDex'],
+		banlist: ['Arena Trap', 'Shadow Tag'],
+	},
 ];

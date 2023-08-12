@@ -18038,7 +18038,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 	},
 	  uzerion: {
-		num: 1011,
+		num: 1100,
 		name: "Uzerion",
 		types: ["Fire", "Ice"],
 		gender: "N",
@@ -18051,7 +18051,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"], 
 	}, 
 	screechik: {
-		num: 1012,
+		num: 1101,
 		name: "Screechik",
 		types: ["Fighting"],
 		baseStats: {hp: 31, atk: 51, def: 40, spa: 20, spd: 30, spe: 45},
@@ -18063,7 +18063,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Field"],
 	},
 	terrodon: {
-		num: 1013,
+		num: 1102,
 		name: "Terrodon",
 		types: ["Fighting", "Dark"],
 		baseStats: {hp: 75, atk: 100, def: 90, spa: 41, spd: 55, spe: 95},

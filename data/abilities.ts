@@ -5221,4 +5221,4 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Gallantry",
 		rating: 3,
 		num: 1001,
-};
+},

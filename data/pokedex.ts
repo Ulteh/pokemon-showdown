@@ -18048,8 +18048,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 999.9,
 		color: "Gray",
 		tags: ["Burning Zero"],
-		eggGroups: ["Undiscovered"], 
-	}, 
+		eggGroups: ["Undiscovered"],
+	},
 	screechik: {
 		num: 1101,
 		name: "Screechik",
@@ -18074,7 +18074,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Screechik",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Field"],
-		
+
 	},
 	dracosweet: {
 		num: 1103,
@@ -18102,6 +18102,86 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Grass", "Dragon"],
 	},
+	/*
+	ironwebs: {
+		num: 1105,
+		name: "Iron Webs",
+		types: ["Electric", "Fire"],
+		gender: "N",
+		baseStats: {hp: 70, atk: 115, def: 70, spa: 120, spd: 70, spe: 125},
+		abilities: {0: "Quark Drive"},
+		heightm: 0.5,
+		weightkg: 47.2,
+		color: "Yellow",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	}
+	ironblades: {
+		num: 1106,
+		name: "Iron Blades",
+		types: ["Electric", "Ghost"],
+		gender: "N",
+		baseStats: {hp: 60, atk: 130, def: 65, spa: 125, spd: 90, spe: 100},
+		abilities: {0: "Quark Drive"},
+		heightm: 0.4,
+		weightkg: 9.1,
+		color: "Yellow",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	}
+	irongenius: {
+		num: 1107,
+		name: "Iron Genius",
+		types: ["Psychic", "Eletric"],
+		gender: "N",
+		baseStats: {hp: 60, atk: 130, def: 130, spa: 140, spd: 60, spe: 50},
+		abilities: {0: "Quark Drive"},
+		heightm: 0.5,
+		weightkg: 47.2,
+		color: "Yellow",
+		tags: ["Red"],
+		eggGroups: ["Undiscovered"],
+	}
+	apextalons: {
+		num: 1108,
+		name: "Apex Talons",
+		types: ["Grass", "Flying"],
+		gender: "N",
+		baseStats: {hp: 55, atk: 165, def: 75, spa: 75, spd: 65, spe: 135},
+		abilities: {0: "Protosynthesis"},
+		heightm: 2.4,
+		weightkg: 80.3,
+		color: "Green",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	}
+	whitehands: {
+		num: 1109,
+		name: "White Hands",
+		types: ["Poison", "Ground"],
+		gender: "N",
+		baseStats: {hp: 135, atk: 143, def: 71, spa: 59, spd: 147, spe: 35},
+		abilities: {0: "Protosynthesis"},
+		heightm: 4.8,
+		weightkg: 359.5,
+		color: "White",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	}
+	gravelscales: {
+		num: 1110,
+		name: "Gravel Scales",
+		types: ["Dragon", "Rock"],
+		gender: "N",
+		baseStats: {hp: 90, atk: 110, def: 160, spa: 20, spd: 80, spe: 110},
+		abilities: {0: "Protosynthesis"},
+		heightm: 4.3,
+		weightkg: 245.1,
+		color: "White",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	}
+	*/
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

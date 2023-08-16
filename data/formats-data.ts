@@ -5851,9 +5851,17 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	terrodon: {
-		tier: "OU",
-		natDexTier: "OU",
+		tier: "UU",
+		natDexTier: "UU",
 	},
+	dracosweet: {
+		tier: "Unreleased"
+		natDexTier: "Unreleased"
+	}
+	dracosweetrare: {
+		tier: "Unreleased"
+		natDexTier: "Unreleased"
+	}
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

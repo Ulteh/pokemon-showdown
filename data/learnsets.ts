@@ -94509,4 +94509,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			
 		},
 	},
+	dracosweet: {
+		learnset: {
+			dracometeor: ["9T"],
+			
+		},
+	},
+	dracosweetrare: {
+		learnset: {
+			dracometeor: ["9T"],
+			
+		},
+	},
 };

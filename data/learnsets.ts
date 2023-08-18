@@ -94630,5 +94630,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			solarblade: ["9M"],
 		},
 	}, 
+	ironsignal: {
+		learnset: {
+		domainexpansion: ["9M"],
+		
+		},
+	},
 };
 			

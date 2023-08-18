@@ -21660,12 +21660,13 @@ export const Moves: {[moveid: string]: MoveData} = {
         condition: {
             duration: 3,
             onSideStart(side, source) {
-            this.add('-sidestart', side, 'move: Tailwind');
+            this.add('-sidestart', side, 'move: Domain Expansion')
                 }
             },
-
+				onStart(pokemon, source, effect) {
 				this.effectState.bestStat = pokemon.getBestStat(false, true);
 				this.add('-start', pokemon, 'domainexpansion' + this.effectState.bestStat);
+				},
 				onModifyAtkPriority: 5,
             onModifyAtk(atk, source, target, move) {
                 if (this.effectState.bestStat !== 'atk') return;
@@ -21700,7 +21701,6 @@ export const Moves: {[moveid: string]: MoveData} = {
             onSideResidualSubOrder: 5,
             onSideEnd(side) {
                 this.add('-sideend', side, 'move: Domain Expansion');
-            },
         },
         secondary: null,
         target: "allySide",

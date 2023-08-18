@@ -94575,7 +94575,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			return: ["9M"],
 			frustration: ["9M"],
 			substitute: ["9M"],
-			terablast: ["9M"]
+			terablast: ["9M"],
 			hiddenpower: ["9M"],
 			doubleteam: ["9M"],
 			round: ["9M"],

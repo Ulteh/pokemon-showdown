@@ -21646,5 +21646,66 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ice",
 		contestType: "Cool",
-	},	
+	},
+	domainexpansion: {
+        num: 366,
+        accuracy: true,
+        basePower: 0,
+        category: "Status",
+        name: "Domain Expansion",
+        pp: 10,
+        priority: 0,
+        flags: {snatch: 1},
+        sideCondition: 'domainexpansion',
+        condition: {
+            duration: 3,
+            onSideStart(side, source) {
+            this.add('-sidestart', side, 'move: Tailwind');
+                }
+            },
+
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'domainexpansion' + this.effectState.bestStat);
+				onModifyAtkPriority: 5,
+            onModifyAtk(atk, source, target, move) {
+                if (this.effectState.bestStat !== 'atk') return;
+                this.debug('Domain Expansion atk boost');
+                return this.chainModify([5325, 4096]);
+            },
+            onModifyDefPriority: 6,
+            onModifyDef(def, target, source, move) {
+                if (this.effectState.bestStat !== 'def') return;
+                this.debug('Domain Expansion def boost');
+                return this.chainModify([5325, 4096]);
+            },
+            onModifySpAPriority: 5,
+            onModifySpA(relayVar, source, target, move) {
+                if (this.effectState.bestStat !== 'spa') return;
+                this.debug('Domain Expansion spa boost');
+                return this.chainModify([5325, 4096]);
+            },
+            onModifySpDPriority: 6,
+            onModifySpD(relayVar, target, source, move) {
+                if (this.effectState.bestStat !== 'spd') return;
+                this.debug('Domain Expansion spd boost');
+                return this.chainModify([5325, 4096]);
+            },
+            onModifySpe(spe, pokemon) {
+                if (this.effectState.bestStat !== 'spe') return;
+                this.debug('Domain Expansion spe boost');
+                return this.chainModify(1.5);
+            },
+		
+            onSideResidualOrder: 26,
+            onSideResidualSubOrder: 5,
+            onSideEnd(side) {
+                this.add('-sideend', side, 'move: Tailwind');
+            },
+        },
+        secondary: null,
+        target: "allySide",
+        type: "Flying",
+        zMove: {effect: 'crit2'},
+        contestType: "Cool",
+    },
 };

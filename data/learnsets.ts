@@ -94461,7 +94461,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			nightslash: ["9M"],
 			terablast: ["9M"],
 			protect: ["9M"],
-			substitute: ["9M"],
 		},
 	},
 		terrodon: {

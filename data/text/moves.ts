@@ -7453,5 +7453,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "This move combines Fighting in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active, and a higher chance for a critical hit.",
 		shortDesc: "Combines Fighting in type effectiveness. High crit chance.",
 	},
+	domainexpansion: {
+		name: "Domain Expansion",
+		desc: "User sets up a field of energy that boosts it's highest non-HP stat for 3 turns",
+		shortDesc: "Boosts highest non-HP stat for 3 turns",
+	},
 };
 

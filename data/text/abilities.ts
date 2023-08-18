@@ -2146,6 +2146,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] underwent a heroic transformation!",
 	},
+	gallantry: {
+		name: "Gallantry",
+		desc: "This Pokemon's Special Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
+		shortDesc: "This Pokemon's Special Attack is raised by 1 stage if it attacks and KOes another Pokemon.",
+	},
 
 	// CAP
 	mountaineer: {

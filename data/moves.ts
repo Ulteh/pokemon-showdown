@@ -21660,7 +21660,7 @@ export const Moves: {[moveid: string]: MoveData} = {
         condition: {
             duration: 3,
             onSideStart(side, source) {
-            this.add('-sidestart', side, 'move: Domain Expansion');
+            this.add('-sidestart', side, 'move: Domain Expansion')
                 }
             },
 

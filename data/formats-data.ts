@@ -6227,51 +6227,51 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	ironwebs: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	ironblades: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	irongenius: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	apextalons: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	whitehands: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	gravelscales: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	ironspirit: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	championmantle: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	mossytongue: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	absolutecarnage: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	ironsignal: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 	fluttermage: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
 	},
 };

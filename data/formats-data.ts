@@ -5855,13 +5855,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "UU",
 	},
 	dracosweet: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
-	}
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
+	},
 	dracosweetrare: {
-		tier: "Unreleased"
-		natDexTier: "Unreleased"
-	}
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

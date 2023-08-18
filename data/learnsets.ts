@@ -94634,21 +94634,4 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		},
 	}, 
 };
-/*
-			protect: ["9M"],
-			rest: ["9M"],
-			facade: ["9M"],
-			return: ["9M"],
-			frustration: ["9M"],
-			substitute: ["9M"],
-			terablast: ["9M"]
-			hiddenpower: ["9M"],
-			doubleteam: ["9M"],
-			round: ["9M"],
-			swagger: ["9M"],
-			sleeptalk: ["9M"],
-			confide: ["9M"],
-			toxic: ["9M"],
-			rest: ["9M"],
-*/
 			

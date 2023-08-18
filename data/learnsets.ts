@@ -94581,7 +94581,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sleeptalk: ["9M"],
 			confide: ["9M"],
 			toxic: ["9M", "9L1"],
-			rest: ["9M"],
 			absorb: ["9L1"],
 			growth: ["9L1"],
 			leechseed: ["9L1"],

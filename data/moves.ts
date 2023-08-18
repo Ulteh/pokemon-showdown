@@ -21699,12 +21699,12 @@ export const Moves: {[moveid: string]: MoveData} = {
             onSideResidualOrder: 26,
             onSideResidualSubOrder: 5,
             onSideEnd(side) {
-                this.add('-sideend', side, 'move: Tailwind');
+                this.add('-sideend', side, 'move: Domain Expansion');
             },
         },
         secondary: null,
         target: "allySide",
-        type: "Flying",
+        type: "Psychic",
         zMove: {effect: 'crit2'},
         contestType: "Cool",
     },

@@ -21663,9 +21663,10 @@ export const Moves: {[moveid: string]: MoveData} = {
             this.add('-sidestart', side, 'move: Domain Expansion')
                 }
             },
-
+				onStart(pokemon, source, effect) {
 				this.effectState.bestStat = pokemon.getBestStat(false, true);
 				this.add('-start', pokemon, 'domainexpansion' + this.effectState.bestStat);
+				}
 				onModifyAtkPriority: 5,
             onModifyAtk(atk, source, target, move) {
                 if (this.effectState.bestStat !== 'atk') return;

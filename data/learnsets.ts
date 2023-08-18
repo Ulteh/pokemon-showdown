@@ -94525,7 +94525,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			
 		},
 	},
-	/* ironwebs: {
+	 ironwebs: {
 		learnset: {
 			bugbite: ["9L1"],
 			electroweb: ["9L1"],
@@ -94595,7 +94595,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			feint: ["9L19"],
 			aerialace: ["9L22],
 		},
-	}, */
+	}, 
 };
 /*
 			protect: ["9M"],

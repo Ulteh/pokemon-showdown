@@ -18131,7 +18131,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	irongenius: {
 		num: 1107,
 		name: "Iron Genius",
-		types: ["Psychic", "Eletric"],
+		types: ["Psychic", "Electric"],
 		gender: "N",
 		baseStats: {hp: 60, atk: 130, def: 130, spa: 140, spd: 60, spe: 50},
 		abilities: {0: "Quark Drive"},
@@ -18183,7 +18183,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	ironspirit: {
 		num: 1111,
 		name: "Iron Spirit",
-		types: ["Ghost", "Eletric"],
+		types: ["Ghost", "Electric"],
 		gender: "N",
 		baseStats: {hp: 50, atk: 80, def: 130, spa: 145, spd: 130, spe: 35},
 		abilities: {0: "Quark Drive"},

@@ -94508,7 +94508,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			terablast: ["9M"],
 			uturn: ["9M"],
 			protect: ["9M"],
-			substitute: ["9M"],
 			
 		},
 	},

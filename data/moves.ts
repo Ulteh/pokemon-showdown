@@ -21701,7 +21701,6 @@ export const Moves: {[moveid: string]: MoveData} = {
             onSideResidualSubOrder: 5,
             onSideEnd(side) {
                 this.add('-sideend', side, 'move: Domain Expansion');
-            },
         },
         secondary: null,
         target: "allySide",

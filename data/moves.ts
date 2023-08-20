@@ -21648,7 +21648,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 	},
 	domainexpansion: {
-        num: 366,
+        num: 903,
         accuracy: true,
         basePower: 0,
         category: "Status",
@@ -21708,4 +21708,20 @@ export const Moves: {[moveid: string]: MoveData} = {
         zMove: {effect: 'crit2'},
         contestType: "Cool",
     },
+	gaslight: {
+		num: 904,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Gaslight",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		stealsBoosts: true,
+		// Boost stealing implemented in scripts.js
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
 };

@@ -94628,6 +94628,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hyperbeam: ["9M"],
 			dualwingbeat: ["9M"],
 			solarblade: ["9M"],
+			naturesinstinct: ["9L100"],
 		},
 	}, 
 	ironsignal: {
@@ -94749,6 +94750,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			firelash: ["9L1"],
 			stompingtantrum: ["9L1"],
 			terablast: ["9M"],
+			corrodingclaw: ["9L100"],
+			sunnyday: ["9T"],
 		},
 	},
 	irongenius: {
@@ -94813,6 +94816,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			smartstrike: ["9L1"],
 			steelbeam: ["9L1"],
 			terablast: ["9M"],
+			brainandbrawn: ["9L100"],
+			electricterrain: ["9T"],
 		},
 	},
 

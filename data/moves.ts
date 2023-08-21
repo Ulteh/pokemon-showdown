@@ -21769,4 +21769,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Clever",
 	},
+	naturesinstinct:{
+		num: 907,
+		accuracy: 100,
+        basePower: 80,
+        category: "Physical",
+        name: "Nature's Instinct",
+        pp: 15,
+        flags: {protect: 1, mirror: 1, contact: 1},
+        onEffectiveness(typeMod, target, type, move) {
+            return typeMod + this.dex.getEffectiveness('Fighting', type);
+        },
+        priority: 0,
+		critRatio: 2,
+        secondary: null,
+        target: "any",
+        type: "Grass",
+        zMove: {basePower: 180},
+        contestType: "Tough",
+	},
 };

@@ -21724,4 +21724,49 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		contestType: "Cool",
 	},
+	corrodingclaw: {
+		num: 905,
+		accuracy: 95,
+		basePower: 95,
+		category: "Physical",
+		name: "Corroding Claw",
+		pp: 10,
+		priority: 0
+		flags: {protect: 1, contact: 1, mirror: 1, slicing: 1},
+		onHit: function (target, source) {
+        if (target && target.side) {
+            const moves = target.side.active.map(pokemon => pokemon.moves);
+            moves.flat().forEach(moveSlot => {
+                if (moveSlot.pp > 0) {
+                    moveSlot.pp--;
+                }
+            });
+            this.add('-activate', target, 'move: Corroding Claw');
+        }
+		},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+		zMove: {basePower: 160},
+		contestType: "Cool",
+	},
+	brainandbrawn: {
+		num: 906,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Brain and Brawn",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1},
+		boosts: {
+			atk: 2,
+			spa: 2,
+		},
+		secondary: null,
+		target: "self",
+		type: "Psychic",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Clever",
+	},
 };

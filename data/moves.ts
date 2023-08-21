@@ -21756,7 +21756,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Brain and Brawn",
-		pp: 20,
+		pp: 5,
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {

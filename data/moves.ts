@@ -21742,7 +21742,7 @@ export const Moves: {[moveid: string]: MoveData} = {
                 }
             });
             this.add('-activate', target, 'move: Corroding Claw');
-        },
+			}
 		},
 		secondary: null,
 		target: "normal",

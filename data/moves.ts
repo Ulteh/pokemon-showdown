@@ -21731,7 +21731,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		category: "Physical",
 		name: "Corroding Claw",
 		pp: 10,
-		priority: 0
+		priority: 0,
 		flags: {protect: 1, contact: 1, mirror: 1, slicing: 1},
 		onHit: function (target, source) {
         if (target && target.side) {

@@ -94736,7 +94736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderfang: ["9L1"],
 			icefang: ["9L1"],
 			firefang: ["9L1"],
-			psychicfang: ["9L1"],
+			psychicfangs: ["9L1"],
 			dracometeor: ["9L1"],
 			rockwrecker: ["9L1"],
 			stealthrock: ["9L1"],

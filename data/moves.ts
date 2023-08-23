@@ -21781,7 +21781,6 @@ export const Moves: {[moveid: string]: MoveData} = {
             return typeMod + this.dex.getEffectiveness('Fighting', type);
         },
         priority: 0,
-		critRatio: 2,
         secondary: null,
         target: "any",
         type: "Grass",

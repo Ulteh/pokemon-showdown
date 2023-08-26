@@ -21735,15 +21735,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, contact: 1, mirror: 1, slicing: 1},
 		onHit: function (target, source) {
         if (target && target.side) {
-            const moves = target.side.active.map(pokemon => pokemon.moves);
-            moves.flat().forEach(moveSlot => {
+            for (const moveSlot of target.moveSlots) {
                 if (moveSlot.pp > 0) {
                     moveSlot.pp--;
                 }
-            });
+            }
             this.add('-activate', target, 'move: Corroding Claw');
-			}
-		},
+        }
+    },
 		secondary: null,
 		target: "normal",
 		type: "Rock",

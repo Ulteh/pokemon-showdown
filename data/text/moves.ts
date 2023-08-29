@@ -7473,5 +7473,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "This move combines Fighting in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
 		shortDesc: "Combines Fighting in type effectiveness.",
 	},
+	gaslight: {
+		name: "Gaslight",
+		desc: "The target's stat stages greater than 0 are stolen from it and applied to the user before dealing damage.",
+		shortDesc: "Steals target's boosts before dealing damage.",
+	},
 };
 

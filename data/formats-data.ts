@@ -5842,26 +5842,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 		natDexTier: "RUBL",
 	},
-	uzerion: {
-		tier: "Uber",
-		natDexTier: "Uber",
-	}, 
-	screechik: {
-		tier: "LC",
-		natDexTier: "LC",
-	},
-	terrodon: {
-		tier: "UU",
-		natDexTier: "UU",
-	},
-	dracosweet: {
-		tier: "Unreleased",
-		natDexTier: "Unreleased",
-	},
-	dracosweetrare: {
-		tier: "Unreleased",
-		natDexTier: "Unreleased",
-	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
@@ -6271,6 +6251,26 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "Unreleased",
 	},
 	fluttermage: {
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
+	},
+	uzerion: {
+	tier: "Uber",
+	natDexTier: "Uber",
+	}, 
+	screechik: {
+		tier: "LC",
+		natDexTier: "LC",
+	},
+	terrodon: {
+		tier: "UU",
+		natDexTier: "UU",
+	},
+	dracosweet: {
+		tier: "Unreleased",
+		natDexTier: "Unreleased",
+	},
+	dracosweetrare: {
 		tier: "Unreleased",
 		natDexTier: "Unreleased",
 	},

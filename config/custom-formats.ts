@@ -21,7 +21,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Cyberville NatDex FFA",
 		
-		mod: 'gen9cyb',
+		//mod: 'gen9cyb',
 		gametype: 'freeforall',
 		ruleset: ['Standard NatDex'],
 		banlist: ['Arena Trap', 'Shadow Tag'],
